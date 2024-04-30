@@ -12,8 +12,7 @@ All the s3 buckets should have lifecyle management or public Access is disabled.
 
 
 
-     
-
+    
 Scanrio4:
 
     Creationof tags for each and every instance is important.

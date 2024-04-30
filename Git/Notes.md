@@ -5,12 +5,16 @@ working area---->index area/staggingarea---------->local Repo------------>Centra
 
 
 git add:  working area---->index area/staggingarea
+   
+    syntax: git add .
 
 git commit:index area/staggingarea---------->local Repo
 
+   syntax:git commit -m "message"
+
 git push: local Repo------------>Central Repo/Remote repository
 
-commands:
+commands: git push -u origin branchname
 
 git add filesname
 
@@ -27,4 +31,7 @@ if you want to create new branch:  git checkout -b
 
 from master branch to feature branch:
 
-    git checkout -b feature-branch master
+    git checkout -b feature-branch master 
+
+
+difference between git fetch and git pull
