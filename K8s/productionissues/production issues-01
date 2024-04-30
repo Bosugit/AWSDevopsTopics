@@ -1,0 +1,43 @@
+
+youtubelink:
+https://www.youtube.com/watch?v=O4Puz7WeHCI&list=PLd8alL65M1GYYIPtoQRLJJsk_niit1dU_&index=4
+
+which are pods are running they went off. This pods was running last 69 days,all of suddenlty went wrong
+
+status is: error is:CrashLoopbackoff
+
+
+first I had verified the events:
+
+   #kubectl get events
+
+     error is:restarting failed container 
+
+       ![alt text](image.png)   (refer image.png)
+
+    it is trying to restart everytime ,but getting failed.
+
+ we had checked kubectl describe and kubectl logs
+  issue is screenshot:
+
+    ![alt text](image-1.png)
+
+
+  error explanation:/var/data/kubelet/pods lo volume undi,that is rootfs volume.
+
+  what is problem antey ,aa rootfs volume ni mount cheilekapothundi enduku antey there is an some issue.because that is full ayepovatam valla not able to mount .they need to clear or they might me other issues also.
+
+   reasons:Running out of memory of ram or some other is
+
+   Actual issue is: check the screenshot  mount chesetappud no such file or directory ani vastundi.it is clearly saying that kafka.conf not avilable.
+
+   ade faile avutundi,fail avutunappud it will go into loop and restart loop lo ki velipoyindi anf fail avutundi.
+
+   clear the file system then done the restart.
+
+   restart antey kubectl delete pod podname ,it has recreated that is how we need to troube shooting.
+
+   
+         
+
+ 
