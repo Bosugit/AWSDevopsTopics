@@ -1,0 +1,35 @@
+youtube link:https://www.youtube.com/watch?v=FCt4n7U-W4M&list=PLd8alL65M1GYYIPtoQRLJJsk_niit1dU_&index=5
+
+issue:
+
+unable to attach or mount volumes=[data],unattached volumes 
+
+
+
+anothr issue:Livness probes failed and Readiness proves failed
+screenshot:
+![alt text](image-2.png)
+
+most of the times may be it is networkig issue.
+
+debugging:dummy pod edi ayna create chesi ,you can try to ping or telnet to this ipaddress or else curl chesi chudavachu.weather it is reaching or not.
+
+reach avatam ladu antey there may be a network issue.
+
+raach avutuntey pod is not up antey you need to check applications or logs.
+
+********************************************
+issuue:Iam permission issue:
+
+![alt text](image-3.png)
+
+
+cluster rback 
+
+isitio issue:generally restart the isitio pods issue willl get resolved.
+****************************************************
+
+issue:statefullset server failed error 
+
+![alt text](image-4.png)
+

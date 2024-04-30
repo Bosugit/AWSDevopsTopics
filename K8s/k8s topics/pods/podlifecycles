@@ -1,0 +1,15 @@
+pod lifecylces:
+
+   Pending
+   Running
+   succeded
+   failed
+   unknown
+
+
+Continer lifecyles:
+   
+    waiting
+    Running
+    
+  
