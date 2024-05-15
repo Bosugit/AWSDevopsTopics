@@ -122,14 +122,12 @@ current version of jenkins.
 
 ***********************************************************************************************************************************************************************
 
+In howmany ways we can trigger jenkins build.
 
-
-
-
-
-
-
-
+webhooks,
+poll SCM,
+Build periodically,
+Github hook trigger for GITScm Polling
 
 
 
