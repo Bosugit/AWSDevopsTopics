@@ -2,7 +2,7 @@ code source from:Docker
 
 minikube ssh
 
-curl -L http:/nodeipaddress:8000/demo
+curl -L http:/nodeipaddress:8000/demo.
 
 
 
