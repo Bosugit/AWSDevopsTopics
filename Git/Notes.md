@@ -4,7 +4,7 @@
 working area---->index area/staggingarea---------->local Repo------------>Central Repo/Remote repository
 
 
-git add:  working area---->index area/staggingarea...............
+git add:  working area---->index area/staggingarea...............((((((((((((((((((()))))))))))))))))))
    
     syntax: git add .
 
